@@ -1,0 +1,6 @@
+{
+  "name": "EDITH — Windows AI Assistant",
+  "description": "Production-quality Windows desktop AI assistant featuring Hey EDITH local wake word, Gemini AI intent reasoning, PySide6 futuristic HUD, and secure action executor by G.Vijay Raj(vijay smart).",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

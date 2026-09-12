@@ -1,0 +1,34 @@
+# EDITH — Enhanced Digital Intelligence & Task Handler
+# Developed by G.Vijay Raj (vijay smart)
+# Production Dependencies for Windows Desktop Deployment
+
+# Core GUI & Asynchronous UI
+PySide6>=6.6.0; sys_platform == 'win32'
+PySide6-Essentials>=6.6.0; sys_platform == 'win32'
+
+# AI & Gemini API
+google-genai>=0.1.1
+google-generativeai>=0.8.0
+pydantic>=2.5.0
+
+# Environment & Configuration
+python-dotenv>=1.0.0
+
+# System Telemetry & Windows Native Control
+psutil>=5.9.8
+pywin32>=306; sys_platform == 'win32'
+pycaw>=20240210; sys_platform == 'win32'
+comtypes>=1.4.0; sys_platform == 'win32'
+winshell>=0.6; sys_platform == 'win32'
+
+# Audio & Voice Processing
+numpy>=1.24.0
+sounddevice>=0.4.6
+PyAudio>=0.2.14
+pyttsx3>=2.90
+SpeechRecognition>=3.10.1
+
+# Packaging & Testing
+pyinstaller>=6.5.0
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
